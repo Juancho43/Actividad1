@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\Actividad\\Actividad\\Actividad.csproj": {}
+    "C:\\Users\\Usuario\\MEGA\\Portafolio\\Tecnicatura Programación\\3er año\\Diseño implentación de sistemas\\Figuras-Geometricas\\Actividad\\Actividad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\Actividad\\Actividad\\Actividad.csproj": {
+    "C:\\Users\\Usuario\\MEGA\\Portafolio\\Tecnicatura Programación\\3er año\\Diseño implentación de sistemas\\Figuras-Geometricas\\Actividad\\Actividad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Actividad\\Actividad\\Actividad.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\MEGA\\Portafolio\\Tecnicatura Programación\\3er año\\Diseño implentación de sistemas\\Figuras-Geometricas\\Actividad\\Actividad.csproj",
         "projectName": "Actividad",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\Actividad\\Actividad\\Actividad.csproj",
+        "projectPath": "C:\\Users\\Usuario\\MEGA\\Portafolio\\Tecnicatura Programación\\3er año\\Diseño implentación de sistemas\\Figuras-Geometricas\\Actividad\\Actividad.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\Actividad\\Actividad\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\MEGA\\Portafolio\\Tecnicatura Programación\\3er año\\Diseño implentación de sistemas\\Figuras-Geometricas\\Actividad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

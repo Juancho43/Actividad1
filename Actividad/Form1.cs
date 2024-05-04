@@ -20,7 +20,7 @@ namespace Actividad
         private void Setup()
         {
             Controller = new FiguraController();
-            List<ICalculable> datos = new List<ICalculable>() { new Triangulo(), new Cuadrado(), new Circulo() };
+            List<ICalculable> datos = new List<ICalculable>() { new Triangulo(), new Cuadrado(), new Circulo(), new Poligono() };
             comboBoxTipoFigura.DataSource = datos;
         }
         private void SetTextboxs()
@@ -33,18 +33,28 @@ namespace Actividad
                     textBoxLado2.Enabled = false;
                     textBoxLado3.Enabled = false;
                     textBoxRadio.Enabled = true;
+                    textBoxCantidad.Enabled = false;
                     break;
                 case "Cuadrado nuevo":
                     textBoxLado1.Enabled = true;
                     textBoxLado2.Enabled = false;
                     textBoxLado3.Enabled = false;
                     textBoxRadio.Enabled = false;
+                    textBoxCantidad.Enabled = false;
                     break;
                 case "Triangulo nuevo":
                     textBoxLado1.Enabled = true;
                     textBoxLado2.Enabled = true;
                     textBoxLado3.Enabled = true;
                     textBoxRadio.Enabled = false;
+                    textBoxCantidad.Enabled = false;
+                    break;
+                case "Poligono nuevo":
+                    textBoxLado1.Enabled = true;
+                    textBoxLado2.Enabled = false;
+                    textBoxLado3.Enabled = false;
+                    textBoxRadio.Enabled = false;
+                    textBoxCantidad.Enabled = true;
                     break;
             }
         }
@@ -56,26 +66,23 @@ namespace Actividad
             switch (tipo)
             {
                 case "Circulo nuevo":
-                    ICalculable circulo = new Circulo(Double.Parse(textBoxRadio.Text));
-                    Controller.SetFigura(circulo);
-                    listBoxFiguras.Items.Add(circulo);
+                    NuevaFigura(new Circulo(Double.Parse(textBoxRadio.Text)));
                     break;
                 case "Cuadrado nuevo":
-                    ICalculable cuadrado = new Cuadrado(Double.Parse(textBoxLado1.Text));
-                    Controller.SetFigura(cuadrado);
-                    listBoxFiguras.Items.Add(cuadrado);
+                    NuevaFigura(new Cuadrado(Double.Parse(textBoxLado1.Text)));
                     break;
                 case "Triangulo nuevo":
                     if (Controller.VerificarTriangulo(Double.Parse(textBoxLado1.Text), Double.Parse(textBoxLado2.Text), Double.Parse(textBoxLado3.Text)))
                     {
-                        ICalculable triangulo = new Triangulo(Double.Parse(textBoxLado1.Text), Double.Parse(textBoxLado2.Text), Double.Parse(textBoxLado3.Text));
-                        Controller.SetFigura(triangulo);
-                        listBoxFiguras.Items.Add(triangulo);
+                        NuevaFigura(new Triangulo(Double.Parse(textBoxLado1.Text), Double.Parse(textBoxLado2.Text), Double.Parse(textBoxLado3.Text)));
                     }
                     else
                     {
                         MessageBox.Show("Los valores ingresados no forman un tríangulo", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     }
+                    break;
+                case "Poligono nuevo":
+                    NuevaFigura(new Poligono(Double.Parse(textBoxLado1.Text),Double.Parse(textBoxCantidad.Text)));
                     break;
             }
         }
@@ -88,9 +95,15 @@ namespace Actividad
 
             MostrarFigura((ICalculable)listBoxFiguras.SelectedItem);
         }
+
+        private void NuevaFigura(ICalculable figura)
+        {
+            Controller.SetFigura(figura);
+            listBoxFiguras.Items.Add(figura);
+        }
         private void MostrarFigura(ICalculable figura)
         {
-
+            labelAltura.Text = "Altura";
             labelAreaData.Text = figura.CalcularArea().ToString("0.00");
             labelPerimetroData.Text = figura.CalcularPerimetro().ToString("0.00");
             switch (figura)
@@ -105,9 +118,13 @@ namespace Actividad
                     break;
                 case Circulo:
                     Circulo circulo = (Circulo)figura;
-                    
                     double altura = circulo.GetRadio() * 2;
                     labelAlturaData.Text = altura.ToString("0.00");
+                    break;
+                case Poligono:
+                    Poligono poligono = (Poligono)figura;
+                    labelAlturaData.Text = poligono.LADO.ToString();
+                    labelAltura.Text = "Lado";
                     break;
 
             }

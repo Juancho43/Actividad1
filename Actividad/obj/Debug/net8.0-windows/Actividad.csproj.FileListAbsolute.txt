@@ -14,3 +14,20 @@ C:\Users\Usuario\source\repos\Actividad\Actividad\obj\Debug\net8.0-windows\refin
 C:\Users\Usuario\source\repos\Actividad\Actividad\obj\Debug\net8.0-windows\Actividad.pdb
 C:\Users\Usuario\source\repos\Actividad\Actividad\obj\Debug\net8.0-windows\Actividad.genruntimeconfig.cache
 C:\Users\Usuario\source\repos\Actividad\Actividad\obj\Debug\net8.0-windows\ref\Actividad.dll
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\bin\Debug\net8.0-windows\Actividad.exe
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\bin\Debug\net8.0-windows\Actividad.deps.json
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\bin\Debug\net8.0-windows\Actividad.runtimeconfig.json
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\bin\Debug\net8.0-windows\Actividad.dll
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\bin\Debug\net8.0-windows\Actividad.pdb
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\obj\Debug\net8.0-windows\Actividad.Form1.resources
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\obj\Debug\net8.0-windows\Actividad.csproj.GenerateResource.cache
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\obj\Debug\net8.0-windows\Actividad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\obj\Debug\net8.0-windows\Actividad.AssemblyInfoInputs.cache
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\obj\Debug\net8.0-windows\Actividad.AssemblyInfo.cs
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\obj\Debug\net8.0-windows\Actividad.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\obj\Debug\net8.0-windows\Actividad.sourcelink.json
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\obj\Debug\net8.0-windows\Actividad.dll
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\obj\Debug\net8.0-windows\refint\Actividad.dll
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\obj\Debug\net8.0-windows\Actividad.pdb
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\obj\Debug\net8.0-windows\Actividad.genruntimeconfig.cache
+C:\Users\Usuario\MEGA\Portafolio\Tecnicatura Programación\3er año\Diseño implentación de sistemas\Figuras-Geometricas\Actividad\obj\Debug\net8.0-windows\ref\Actividad.dll

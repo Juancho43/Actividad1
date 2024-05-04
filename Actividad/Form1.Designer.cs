@@ -45,6 +45,8 @@
             labelPerimetroData = new Label();
             labelAreaData = new Label();
             labelAlturaData = new Label();
+            labelCantidad = new Label();
+            textBoxCantidad = new TextBox();
             SuspendLayout();
             // 
             // listBoxFiguras
@@ -59,7 +61,7 @@
             // labelLado1
             // 
             labelLado1.AutoSize = true;
-            labelLado1.Location = new Point(203, 36);
+            labelLado1.Location = new Point(176, 36);
             labelLado1.Name = "labelLado1";
             labelLado1.Size = new Size(50, 20);
             labelLado1.TabIndex = 1;
@@ -68,7 +70,7 @@
             // labelLado2
             // 
             labelLado2.AutoSize = true;
-            labelLado2.Location = new Point(203, 78);
+            labelLado2.Location = new Point(176, 75);
             labelLado2.Name = "labelLado2";
             labelLado2.Size = new Size(50, 20);
             labelLado2.TabIndex = 2;
@@ -77,7 +79,7 @@
             // labelLado3
             // 
             labelLado3.AutoSize = true;
-            labelLado3.Location = new Point(203, 117);
+            labelLado3.Location = new Point(176, 117);
             labelLado3.Name = "labelLado3";
             labelLado3.Size = new Size(50, 20);
             labelLado3.TabIndex = 3;
@@ -85,7 +87,7 @@
             // 
             // textBoxLado1
             // 
-            textBoxLado1.Location = new Point(270, 26);
+            textBoxLado1.Location = new Point(269, 29);
             textBoxLado1.Name = "textBoxLado1";
             textBoxLado1.Size = new Size(125, 27);
             textBoxLado1.TabIndex = 4;
@@ -107,7 +109,7 @@
             // labelRadio
             // 
             labelRadio.AutoSize = true;
-            labelRadio.Location = new Point(203, 162);
+            labelRadio.Location = new Point(176, 166);
             labelRadio.Name = "labelRadio";
             labelRadio.Size = new Size(48, 20);
             labelRadio.TabIndex = 7;
@@ -123,7 +125,7 @@
             // labelAltura
             // 
             labelAltura.AutoSize = true;
-            labelAltura.Location = new Point(203, 283);
+            labelAltura.Location = new Point(176, 321);
             labelAltura.Name = "labelAltura";
             labelAltura.Size = new Size(49, 20);
             labelAltura.TabIndex = 9;
@@ -131,7 +133,7 @@
             // 
             // buttonCrear
             // 
-            buttonCrear.Location = new Point(301, 226);
+            buttonCrear.Location = new Point(301, 270);
             buttonCrear.Name = "buttonCrear";
             buttonCrear.Size = new Size(94, 29);
             buttonCrear.TabIndex = 13;
@@ -142,7 +144,7 @@
             // comboBoxTipoFigura
             // 
             comboBoxTipoFigura.FormattingEnabled = true;
-            comboBoxTipoFigura.Location = new Point(203, 192);
+            comboBoxTipoFigura.Location = new Point(202, 236);
             comboBoxTipoFigura.Name = "comboBoxTipoFigura";
             comboBoxTipoFigura.Size = new Size(192, 28);
             comboBoxTipoFigura.TabIndex = 14;
@@ -151,7 +153,7 @@
             // labelArea
             // 
             labelArea.AutoSize = true;
-            labelArea.Location = new Point(203, 371);
+            labelArea.Location = new Point(176, 409);
             labelArea.Name = "labelArea";
             labelArea.Size = new Size(43, 20);
             labelArea.TabIndex = 15;
@@ -160,7 +162,7 @@
             // labelPerimetro
             // 
             labelPerimetro.AutoSize = true;
-            labelPerimetro.Location = new Point(203, 329);
+            labelPerimetro.Location = new Point(176, 367);
             labelPerimetro.Name = "labelPerimetro";
             labelPerimetro.Size = new Size(76, 20);
             labelPerimetro.TabIndex = 16;
@@ -169,7 +171,7 @@
             // labelPerimetroData
             // 
             labelPerimetroData.AutoSize = true;
-            labelPerimetroData.Location = new Point(281, 329);
+            labelPerimetroData.Location = new Point(254, 367);
             labelPerimetroData.Name = "labelPerimetroData";
             labelPerimetroData.Size = new Size(27, 20);
             labelPerimetroData.TabIndex = 17;
@@ -178,7 +180,7 @@
             // labelAreaData
             // 
             labelAreaData.AutoSize = true;
-            labelAreaData.Location = new Point(281, 371);
+            labelAreaData.Location = new Point(254, 409);
             labelAreaData.Name = "labelAreaData";
             labelAreaData.Size = new Size(27, 20);
             labelAreaData.TabIndex = 18;
@@ -187,17 +189,35 @@
             // labelAlturaData
             // 
             labelAlturaData.AutoSize = true;
-            labelAlturaData.Location = new Point(281, 283);
+            labelAlturaData.Location = new Point(254, 321);
             labelAlturaData.Name = "labelAlturaData";
             labelAlturaData.Size = new Size(27, 20);
             labelAlturaData.TabIndex = 19;
             labelAlturaData.Text = "---";
+            // 
+            // labelCantidad
+            // 
+            labelCantidad.AutoSize = true;
+            labelCantidad.Location = new Point(176, 203);
+            labelCantidad.Name = "labelCantidad";
+            labelCantidad.Size = new Size(69, 20);
+            labelCantidad.TabIndex = 20;
+            labelCantidad.Text = "Cantidad";
+            // 
+            // textBoxCantidad
+            // 
+            textBoxCantidad.Location = new Point(270, 196);
+            textBoxCantidad.Name = "textBoxCantidad";
+            textBoxCantidad.Size = new Size(125, 27);
+            textBoxCantidad.TabIndex = 21;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(420, 450);
+            Controls.Add(textBoxCantidad);
+            Controls.Add(labelCantidad);
             Controls.Add(labelAlturaData);
             Controls.Add(labelAreaData);
             Controls.Add(labelPerimetroData);
@@ -241,5 +261,7 @@
         private Label labelPerimetroData;
         private Label labelAreaData;
         private Label labelAlturaData;
+        private Label labelCantidad;
+        private TextBox textBoxCantidad;
     }
 }
